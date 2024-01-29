@@ -13,11 +13,11 @@ import { Movie} from "../favMovies/movie";
 export class AppComponent {
   title = 'salarGorgeesMyFirstAngularApplication';
 
-  movie = [
-    new Movie("The Lord of The Rings", 2001, true, "Three", "Gandalf, Frodo, Aragorn"),
-    new Movie("Interstellar", 2014, true, "One", "Joseph Cooper"),
-    new Movie("The Hobbit", 2012, true, "Three", "Bilbo Baggins")
-
-]
+  // movie = [
+  //   new Movie("The Lord of The Rings", 2001, true, "Three", "Gandalf, Frodo, Aragorn"),
+  //   new Movie("Interstellar", 2014, true, "One", "Joseph Cooper"),
+  //   new Movie("The Hobbit", 2012, true, "Three", "Bilbo Baggins")
+//
+// ]
 }
 
