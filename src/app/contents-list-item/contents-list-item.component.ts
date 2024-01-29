@@ -12,7 +12,7 @@ import {NgOptimizedImage} from "@angular/common";
   styleUrl: './contents-list-item.component.scss'
 })
 export class ContentsListItemComponent implements OnInit{
-  @Input() content: IContent | undefined;
+  @Input() content?: IContent;
   constructor() {
   }
   ngOnInit(): void {
