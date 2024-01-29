@@ -19,5 +19,6 @@ export class AppComponent {
   //   new Movie("The Hobbit", 2012, true, "Three", "Bilbo Baggins")
 //
 // ]
+  //IContent = [];
 }
 

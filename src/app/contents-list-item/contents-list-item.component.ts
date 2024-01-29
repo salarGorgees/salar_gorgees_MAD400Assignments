@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
+import {IContent} from "../models/icontent";
 
 @Component({
   selector: 'app-contents-list-item',
@@ -7,6 +8,10 @@ import { Component } from '@angular/core';
   templateUrl: './contents-list-item.component.html',
   styleUrl: './contents-list-item.component.scss'
 })
-export class ContentsListItemComponent {
-
+export class ContentsListItemComponent implements OnInit{
+  @Input() content: IContent | undefined;
+  constructor() {
+  }
+  ngOnInit(): void {
+  }
 }
